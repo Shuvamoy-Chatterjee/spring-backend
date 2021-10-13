@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.demo.exception.ResourceNotFoundException;
 import com.demo.model.Expenses;
 import com.demo.repository.ExpensesRepository;
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://ng-frontend.azurewebsites.net/")
 @RestController
 @RequestMapping("/api/")
 public class ExpensesController {
