@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://cld-test-common.database.windows.net:1433;database=factory-expenses;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: dbadmin
+    password: db@admin12345
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
